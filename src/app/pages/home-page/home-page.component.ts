@@ -14,6 +14,7 @@ export class HomePageComponent implements OnInit {
 
   constructor(private router: Router) {}
 
+
   ngOnInit(): void {
     //comprobar si existe el token
     this.token = sessionStorage.getItem('token');
